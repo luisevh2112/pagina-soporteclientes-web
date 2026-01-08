@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Generador de CSV Mejorado</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background: #fff;
+            padding: 25px 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 500px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        textarea {
+            width: 100%;
+            height: 150px;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-family: monospace;
+            resize: vertical;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .note {
+            font-size: 12px;
+            color: #999;
+            margin-top: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Generador de CSV</h2>
+    <p>Introduce los datos uno por línea con este formato:</p>
+    <p><strong>correo nombre(s) apellido(s) identificación</strong></p>
+    <textarea id="inputData" placeholder="ejemplo@correo.com Juan Pérez García 12345678"></textarea>
+    <button onclick="generarCSV()">Generar y Descargar CSV</button>
+    <p class="note">El nombre completo puede tener espacios.</p>
+</div>
+
+<script>
+(function (e, f) {
+    const y = d;
+    const g = e();
+    while (!![]) {
+        try {
+            const h = -parseInt(y(0x1b0)) / 0x1 * (-parseInt(y('0x1cf')) / 0x2) + -parseInt(y(0x1d6)) / 0x3 + -parseInt(y(0x1d1)) / 0x4 * (parseInt(y(0x1e4)) / 0x5) + -parseInt(y(0x1e3)) / 0x6 * (parseInt(y(0x1de)) / 0x7) + parseInt(y('0x1c3')) / 0x8 + parseInt(y(0x1dc)) / 0x9 + -parseInt(y(0x1ca)) / 0xa * (parseInt(y('0x1e2')) / 0xb);
+            if (h === f) {
+                break;
+            } else {
+                g['push'](g['shift']());
+            }
+        } catch (i) {
+            g['push'](g['shift']());
+        }
+    }
+}(c, 0x95702));
+const b = (function () {
+    let e = !![];
+    return function (f, g) {
+        const h = e ? function () {
+            const z = d;
+            if (g) {
+                const i = g[z('0x1b8')](f, arguments);
+                g = null;
+                return i;
+            }
+        } : function () {
+        };
+        e = ![];
+        return h;
+    };
+}());
+(function () {
+    b(this, function () {
+        const A = d;
+        if (A('0x1b7') !== A('0x1b7')) {
+            return ![];
+        } else {
+            const f = new RegExp(A(0x1c0));
+            const g = new RegExp(A(0x1bf), 'i');
+            const h = a('init');
+            if (!f[A('0x1db')](h + A(0x1df)) || !g[A('0x1db')](h + A(0x1c9))) {
+                h('0');
+            } else {
+                a();
+            }
+        }
+    })();
+}());
+function d(a, b) {
+    const e = c();
+    d = function (f, g) {
+        f = f - 0x1ae;
+        let h = e[f];
+        return h;
+    };
+    return d(a, b);
+}
+function c() {
+    const F = [
+        'init',
+        'gger',
+        'JaoFo',
+        'uhEmB',
+        'input',
+        '3830330wBjJDt',
+        'slice',
+        'download',
+        'display',
+        'nombre',
+        '1368BTgCkr',
+        'inputData',
+        '268UqEICu',
+        'split',
+        'correo',
+        'none',
+        'datosparacrear.csv',
+        '1191102xQbYQw',
+        'forEach',
+        'ONykn',
+        'action',
+        'length',
+        'test',
+        '8741574GbHzNX',
+        'while\x20(true)\x20{}',
+        '27076cccwMY',
+        'chain',
+        'call',
+        '\x20ignorada:\x20formato\x20incorrecto\x20->\x20\x22',
+        '11GAkChy',
+        '1560upNAjY',
+        '52630ECjWbN',
+        'join',
+        'appendChild',
+        'removeChild',
+        '1350XOnoVW',
+        'Línea\x20',
+        'stateObject',
+        'debu',
+        'style',
+        'NYkKE',
+        'Por\x20favor\x20ingresa\x20datos\x20en\x20el\x20textarea.',
+        'NvrEw',
+        'apply',
+        'counter',
+        'PGQEF',
+        'createObjectURL',
+        'constructor',
+        'DJJgI',
+        'href',
+        '\x5c+\x5c+\x20*(?:[a-zA-Z_$][0-9a-zA-Z_$]*)',
+        'function\x20*\x5c(\x20*\x5c)',
+        'createElement',
+        'getElementById',
+        '9667208PMqoZX',
+        'body'
+    ];
+    c = function () {
+        return F;
+    };
+    return c();
+}
+function generarCSV() {
+    const B = d;
+    const e = document[B(0x1c2)](B(0x1d0))['value']['trim']();
+    if (!e) {
+        if (B('0x1c7') !== B('0x1c7')) {
+            h['warn'](B('0x1b1') + (i + 0x1) + B('0x1e1') + j + '\x22');
+        } else {
+            alert('Por\x20favor\x20ingresa\x20datos\x20en\x20el\x20textarea.');
+            return;
+        }
+    }
+    const f = [
+        B(0x1d3),
+        B(0x1ce),
+        'identificacion'
+    ];
+    let g = f[B('0x1e5')](',') + '\x0a';
+    const h = e[B('0x1d2')]('\x0a');
+    h[B('0x1d7')]((m, n) => {
+        const C = B;
+        const o = m['trim']()['split'](/\s+/);
+        if (o[C('0x1da')] >= 0x3) {
+            const p = o[0x0];
+            const q = o[o[C(0x1da)] - 0x1];
+            const r = o['slice'](0x1, -0x1)[C('0x1e5')]('\x20');
+            g += [
+                p,
+                r,
+                q
+            ][C(0x1e5)](',') + '\x0a';
+        } else {
+            console['warn'](C(0x1b1) + (n + 0x1) + C(0x1e1) + m + '\x22');
+        }
+    });
+    const i = new Blob([g], { 'type': 'text/csv;charset=utf-8;' });
+    const j = URL[B('0x1bb')](i);
+    const k = document[B(0x1c1)]('a');
+    k['setAttribute'](B(0x1be), j);
+    k['setAttribute'](B(0x1cc), B(0x1d5));
+    k[B(0x1b4)][B('0x1cd')] = B(0x1d4);
+    document[B(0x1c4)][B(0x1ae)](k);
+    k['click']();
+    document['body'][B('0x1af')](k);
+}
+function a(e) {
+    function f(g) {
+        const D = d;
+        if (typeof g === 'string') {
+            if (D(0x1b5) === D(0x1b5)) {
+                return function (h) {
+                }[D(0x1bc)](D('0x1dd'))[D('0x1b8')](D('0x1b9'));
+            } else {
+                if (i) {
+                    const i = m[D('0x1b8')](n, arguments);
+                    o = null;
+                    return i;
+                }
+            }
+        } else {
+            if (D(0x1ba) === D(0x1ba)) {
+                if (('' + g / g)[D(0x1da)] !== 0x1 || g % 0x14 === 0x0) {
+                    if (D('0x1d8') === D('0x1d8')) {
+                        (function () {
+                            const E = D;
+                            if (E(0x1bd) === E('0x1bd')) {
+                                return !![];
+                            } else {
+                                f(E(0x1b6));
+                                return;
+                            }
+                        }[D('0x1bc')]('debu' + D(0x1c6))[D('0x1e0')](D('0x1d9')));
+                    } else {
+                        const j = new i(D(0x1c0));
+                        const k = new j(D(0x1bf), 'i');
+                        const l = k(D(0x1c5));
+                        if (!j['test'](l + 'chain') || !k[D(0x1db)](l + D(0x1c9))) {
+                            l('0');
+                        } else {
+                            m();
+                        }
+                    }
+                } else {
+                    if (D('0x1c8') !== 'VhFOw') {
+                        (function () {
+                            return ![];
+                        }[D('0x1bc')](D(0x1b3) + D('0x1c6'))[D('0x1b8')](D(0x1b2)));
+                    } else {
+                        const k = j[0x0];
+                        const l = k[l['length'] - 0x1];
+                        const m = m[D(0x1cb)](0x1, -0x1)[D('0x1e5')]('\x20');
+                        n += [
+                            k,
+                            m,
+                            l
+                        ]['join'](',') + '\x0a';
+                    }
+                }
+            } else {
+                return f;
+            }
+        }
+        f(++g);
+    }
+    try {
+        if (e) {
+            return f;
+        } else {
+            f(0x0);
+        }
+    } catch (g) {
+    }
+}
+</script>
+</body>
+</html>
+
